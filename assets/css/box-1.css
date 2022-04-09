@@ -1,0 +1,26 @@
+.box-1{
+    width: 100%;
+    background-color: rgb(255, 248, 245);
+    border-radius: 10px;
+    margin: 2% auto ;
+}
+.image-profile{
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  padding: 20px;
+  display: inline-block;
+}
+.image-profile img{
+  width: 70%;
+  border-radius: 50%;
+  border: 2px solid #419cf7;
+}
+.info{
+  width: 70%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 40px;
+  padding: 30px;
+}

@@ -1,0 +1,17 @@
+.title{
+    font-family: var(--font-family-body);
+    font-size: 350%;
+    color: white;
+    text-shadow: black -2px 2px 10px 0.1;
+    -webkit-text-stroke: 1px #66b3ff;
+    margin: 25px 0 ;
+}
+.title-info{
+  font-family: var(--font-family-body);
+  font-size: 150%;
+  margin: 20px;
+}
+.paragraph{
+  font-family: var(--font-family-body);
+  font-size: 100%;
+}

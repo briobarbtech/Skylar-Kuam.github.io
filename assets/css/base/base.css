@@ -1,0 +1,48 @@
+@import url(/assets/css/base/reset.css);
+@import url(/assets/css/base/variables.css);
+
+body {
+    width: 100%;
+    background-color: var(--secondary-color);
+    background-image: url("../../img/pattern.png");
+    background-size: 10%;
+    color: var(--contrast-dark-color);
+    font-family: var(--font-family-body);
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+  width: 80%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+    
+}
+.flex {
+  display: flex;
+}
+  
+.flex--center {
+  align-items: center;
+  justify-content: center;
+}
+  
+.flex--column {
+  flex-direction: column;
+}
+  
+@media (min-width: 800px) {
+  .container {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+  }
+}
+  
+@media (min-width: 1200px) {
+    .container {
+      padding-left: calc((100vw - 900px) / 2);
+      padding-right: calc((100vw - 900px) / 2);
+    }
+  }

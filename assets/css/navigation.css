@@ -1,0 +1,8 @@
+@import url("../css/components/text.css");
+.navigation{
+    width: 100%;
+    height: 120px;
+    justify-content:center;
+    text-align: center;
+    background: rgb(214,245,255);
+background: linear-gradient(0deg, rgba(214,245,255,1) 0%, rgba(182,218,255,1) 100%);
