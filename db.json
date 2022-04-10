@@ -1,22 +1,45 @@
 {
     "product":[
-        {
+        {   "id":"5",
             "nameProduct": "Producto A",
             "price": "$20",
             "descProduct": "Descripción del producto",
             "img": "../assets/img/products/image-5.jpg"
         },
         {
+            "id":"4",
             "nameProduct": "Producto B",
             "price": "$60",
             "descProduct": "Descripción del producto",
             "img": "../assets/img/products/image-4.jpg"
         },
         {
+            "id":"3",
+            "nameProduct": "Producto C",
+            "price": "$20",
+            "descProduct": "Descripción del producto",
+            "img": "../assets/img/products/image-3.jpg"
+        },
+        {   
+            "id":"2",
+            "nameProduct": "Producto C",
+            "price": "$20",
+            "descProduct": "Descripción del producto",
+            "img": "../assets/img/products/image-2.jpg"
+        },
+        {
+            "id":"1",
             "nameProduct": "Producto C",
             "price": "$20",
             "descProduct": "Descripción del producto",
             "img": "../assets/img/products/image-1.jpg"
+        },
+        {
+            "id":"0",
+            "nameProduct": "Producto C",
+            "price": "$20",
+            "descProduct": "Descripción del producto",
+            "img": "../assets/img/products/image-0.jpg"
         }
     ]
 }

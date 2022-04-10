@@ -68,6 +68,9 @@ h1{
     background-color: transparent;
     border: none;
 }
+.add-cart:hover{
+    cursor: pointer;
+}
 .add-cart p{
     text-align: center;
 }
