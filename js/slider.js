@@ -7,19 +7,21 @@ images[4] = '../assets/img/slider/image-4.jpg'
 images[5] = '../assets/img/slider/image-5.jpg'
 
 var imgIndex = 0;
-
+var time = 5000
 
 function setElements() {
     document.slider.src = images[imgIndex]
 }
-
+setElements()
 function addIndex(){
-    if (imgIndex < 5) {
-        imgIndex++
-    }else{
-        imgIndex = 0
-    }
-    setElements()
+    setInterval(()=>{
+        setElements()
+        if (imgIndex < 5) {
+            imgIndex++
+        }else{
+            imgIndex = 0
+        }
+    },time)
 }
 
 export const slider = {
