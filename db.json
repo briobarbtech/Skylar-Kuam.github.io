@@ -1,0 +1,22 @@
+{
+    "product":[
+        {
+            "nameProduct": "Producto A",
+            "price": "$20",
+            "descProduct": "Descripción del producto",
+            "img": "../assets/img/products/image-5.jpg"
+        },
+        {
+            "nameProduct": "Producto B",
+            "price": "$60",
+            "descProduct": "Descripción del producto",
+            "img": "../assets/img/products/image-4.jpg"
+        },
+        {
+            "nameProduct": "Producto C",
+            "price": "$20",
+            "descProduct": "Descripción del producto",
+            "img": "../assets/img/products/image-1.jpg"
+        }
+    ]
+}

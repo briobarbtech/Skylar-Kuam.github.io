@@ -12,9 +12,10 @@
     --font-size-table-header: 22px;
     --font-size-modal-title: 28px;
     --font-size-modal-button: 28px;
-  
-    --primary-color: #0071ea;
-    --secondary-color: #d6eaff;
+    
+    --primary-color: #ffa2a2;
+    --secondary-color: #f4a8a8;
+    --thirdy-color: #000000;
     --contrast-dark-color: #4d4d4d;
   
     --contrast-light-color: #fff;

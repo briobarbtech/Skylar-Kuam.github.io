@@ -4,8 +4,9 @@
 body {
     width: 100%;
     background-color: var(--secondary-color);
-    background-image: url("../../img/pattern.png");
-    background-size: 10%;
+    background: url("../../img/background.png");
+    background-size: 100% 100%;
+    background-attachment: fixed;
     color: var(--contrast-dark-color);
     font-family: var(--font-family-body);
     overflow-x: hidden;
@@ -31,6 +32,9 @@ body {
   
 .flex--column {
   flex-direction: column;
+}
+a{
+  text-decoration: none;
 }
   
 @media (min-width: 800px) {
