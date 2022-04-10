@@ -1,2 +1,2 @@
 import { slider } from "./slider.js";
-slider.addIndex()
+//slider.addIndex()
